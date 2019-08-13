@@ -1,0 +1,42 @@
+Mon Aug 12 2019 19:07:43 GMT-0500 (Central Daylight Time): command:movie-this, parameters:Kingpin.
+Mon Aug 12 2019 19:07:47 GMT-0500 (Central Daylight Time): command:movie-this, parameters:The+Matrix.
+08/12/2019 19:09: command:movie-this, parameters:The+Godfather.
+08/12/2019 07:09 pm: command:movie-this, parameters:Mr.+Nobody.
+08/12/2019 07:11 pm: movie-this, Harry+Potter.
+08/12/2019 07:11 pm: movie-this, Spiderman.
+08/12/2019 07:11 pm: movie-this, Superman.
+08/12/2019 07:13 pm: spotify-this-song,, Tragedy.
+08/12/2019 07:22 pm: spotify-this-song, tragedy.
+08/12/2019 07:23 pm: spotify-this-song, tragedy.
+08/12/2019 07:24 pm: spotify-this-song, tragedy.
+08/12/2019 07:28 pm: spotify-this-song, tragedy.
+08/12/2019 07:29 pm: spotify-this-song, tragedy.
+08/12/2019 07:34 pm: spotify-this-song, tragedy.
+08/12/2019 07:36 pm: spotify-this-song, tragedy.
+08/12/2019 07:37 pm: spotify-this-song, tragedy.
+08/12/2019 07:37 pm: spotify-this-song, tragedy.
+08/12/2019 07:38 pm: spotify-this-song, tragedy.
+08/12/2019 07:41 pm: concert-this, ed,sheeran.
+08/12/2019 07:42 pm: concert-this, ed,sheeran.
+08/12/2019 07:42 pm: concert-this, Justin,Bieber.
+08/12/2019 07:43 pm: concert-this, Justin,Bieber.
+08/12/2019 07:43 pm: concert-this, Justin,Bieber.
+08/12/2019 07:44 pm: concert-this, lady,gaga.
+08/12/2019 07:44 pm: concert-this, ariana,grande.
+08/12/2019 07:44 pm: concert-this, jim,gaffigan.
+08/12/2019 07:45 pm: concert-this, bruno,mars.
+08/12/2019 07:46 pm: movie-this, the,godfather.
+08/12/2019 07:48 pm: movie-this, the,godfather.
+08/12/2019 07:49 pm: movie-this, the,godfather.
+08/12/2019 07:49 pm: movie-this, the,godfather.
+08/12/2019 07:49 pm: movie-this, the,kingpin.
+08/12/2019 07:49 pm: movie-this, the,kingpins.
+08/12/2019 07:50 pm: movie-this, kingpin.
+08/12/2019 07:50 pm: movie-this, amadeus.
+08/12/2019 07:52 pm: movie-this, the,godfather.
+08/12/2019 07:54 pm: movie-this, the,godfather.
+08/12/2019 07:56 pm: movie-this, the,godfather.
+08/12/2019 08:00 pm: movie-this, the,godfather.
+08/12/2019 08:00 pm: movie-this, the,kingpin.
+08/12/2019 08:02:06 pm: movie-this, the,kingpin.
+08/12/2019 08:02:16 pm: movie-thi, the,kingpin.
