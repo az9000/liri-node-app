@@ -20,5 +20,6 @@ There are multiple independent JavaScript files (one for each component), that a
  ## How to use
  1. Clone, or download this repository <br>
  1. Install dependencies <br>
- ![npm install](/images/npm-install.PNG)
- 1. 
+   `$ npm install` <br>
+ 1. In order to use Spotify service, the User must provide own Spotify API key and Secret <br>
+ 
