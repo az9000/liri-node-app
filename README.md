@@ -35,7 +35,8 @@ There are multiple independent JavaScript files (one for each component), that a
  ** Edit the text in random.txt to test out the feature for spotify-this-song, movie-this and concert-this commands <br>
  
   ## Demo
-  [Video Demo](https://drive.google.com/file/d/1duPkuHpTMXLrYYnSPI3YTS-QJTurmhZ3/view)
+  Click on the link below to view a video demonstration of the App
+  [Video link](https://drive.google.com/file/d/11UY-dtsCYSt_XqyCJ4gaGX3-7-Z_hryX/view?usp=sharing)
   <br>
   
   ## Repository
