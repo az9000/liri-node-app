@@ -5,12 +5,12 @@ function getTour(artist) {
   if (!artist) {
     artist = "The Sign";
   }
-  
+
   var url =
     "https://rest.bandsintown.com/artists/" +
     artist +
     "/events?app_id=codingbootcamp";
-  
+
   axios
     .get(url)
     .then(function(response) {
@@ -21,20 +21,24 @@ function getTour(artist) {
         );
         return;
       }
-      
-      var index = 1;
-      response.data.forEach(element => {
-        var venue = element.venue;
-        console.group(`Venue ${index}`);
-        console.log("Venue:       ", venue.name);
-        console.log("Location:    ", venue.city + ", " + venue.country);
-        console.log(
-          "Concert Date:",
-          moment(element.datetime).format("MM/DD/YYYY")
-        );
-        console.groupEnd();
-        index++;
-      });
+      if (typeof response.data === 'object') {
+        var index = 1;
+        console.log();
+        response.data.forEach(element => {
+          var venue = element.venue;
+          console.group(`Venue ${index}`);
+          console.log("Venue:       ", venue.name);
+          console.log("Location:    ", venue.city + ", " + venue.country);
+          console.log(
+            "Concert Date:",
+            moment(element.datetime).format("MM/DD/YYYY")
+          );
+          console.groupEnd();
+          index++;
+        });
+      } else {
+        console.log(`Nothing Found for ${artist}!`);
+      }
     })
     .catch(function(error) {
       // handle error
