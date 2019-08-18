@@ -35,9 +35,8 @@ There are multiple independent JavaScript files (one for each component), that a
  ** Edit the text in random.txt to test out the feature for spotify-this-song, movie-this and concert-this commands <br>
  
   ## Demo
-  ![spotify-this-song](/images/spotify-this-song-example1.PNG)
+  ![Video Demo](https://drive.google.com/file/d/1duPkuHpTMXLrYYnSPI3YTS-QJTurmhZ3/view)
   <br>
-  ![spotify-this-song](/images/spotify-this-song-no-song.PNG)
   
   
   
