@@ -20,4 +20,5 @@ There are multiple independent JavaScript files (one for each component), that a
  ## How to use
  1. Clone, or download this repository <br>
  1. Install dependencies <br>
- 
+ ![npm install](/images/npm-install.PNG)
+ 1. 
