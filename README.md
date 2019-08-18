@@ -22,4 +22,9 @@ There are multiple independent JavaScript files (one for each component), that a
  1. Install dependencies <br>
    `$ npm install` <br>
  1. In order to use Spotify service, the User must provide own Spotify API key and Secret <br>
+   * edit the example.env file, and enter the correct information <br>
+   * rename example.env to .env <br>
+ 1. run the app <br>
+ 
+   
  
