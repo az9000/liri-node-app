@@ -20,5 +20,20 @@ There are multiple independent JavaScript files (one for each component), that a
  ## How to use
  1. Clone, or download this repository <br>
  1. Install dependencies <br>
- ![npm install](/images/npm-install.PNG)
- 1. 
+   `$ npm install` <br>
+ 1. Edit example.env file <br>
+ 1. Enter User's Spotify API key and Secret <br>
+ 1. Rename example.env to .env <br>
+ 1. Run the App <br>
+ * Spotify song query: <br>
+ `$ node liri.js spotify-this-song Hotel California` <br>
+ * OMDB movie query: <br>
+ `$ node liri.js movie-this The Godfather` <br>
+ * Bands In Town tour query: <br>
+ `$ node liri.js concert-this The Who` <br>
+ * Random search: <br>
+ ** Edit the text in random.txt to test out the feature for spotify-this-song, movie-this and concert-this commands <br>
+ 
+ 
+   
+ 
