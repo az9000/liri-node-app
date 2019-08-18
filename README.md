@@ -23,7 +23,17 @@ There are multiple independent JavaScript files (one for each component), that a
    `$ npm install` <br>
  1. Edit example.env file <br>
  1. Enter User's Spotify API key and Secret <br>
- 1. Run the App
+ 1. Rename example.env to .env <br>
+ 1. Run the App <br>
+ * Spotify song query: <br>
+ `$ node liri.js spotify-this-song Hotel California` <br>
+ * OMDB movie query: <br>
+ `$ node liri.js movie-this The Godfather` <br>
+ * Bands In Town tour query: <br>
+ `$ node liri.js concert-this The Who` <br>
+ * Random search: <br>
+ ** Edit the text in random.txt to test out the feature for spotify-this-song, movie-this and concert-this commands <br>
+ 
  
    
  
