@@ -1,18 +1,21 @@
-var fs = require('fs');
-var logFile = 'log.txt';
+var fs = require("fs");
+var moment = require("moment");
+var logFile = "log.txt";
 
-async function log(text) {
-    const stats = fs.statSync(logFile);
-    const fileSizeInMBytes = stats.size / 1000000.0;
-    
-    if (fileSizeInMBytes >= 10) {
-        logFile = `log_${new Date().getTime()}.txt`;
-    }    
-    fs.appendFile(logFile, text + '\n', function() {
-        
-    });    
+function log(text) {
+  fs.exists(logFile, exists => {
+    if (exists) {
+        const stats = fs.statSync(logFile);
+        const fileSizeInMBytes = stats.size / 1000000.0;
+        if (fileSizeInMBytes >= 10) {
+          logFile = `log_${new Date().getTime()}.txt`;
+        }
+    }
+    var log_msg = `${moment(new Date()).format("MM/DD/YYYY hh:mm:ss a")}: ${text} \n`;
+    fs.appendFile(logFile, log_msg, function() {});
+  });
 }
 
 module.exports = {
-    log: log
-}
+  log: log
+};
