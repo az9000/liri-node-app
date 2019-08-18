@@ -34,6 +34,11 @@ There are multiple independent JavaScript files (one for each component), that a
  * Random search: <br>
  ** Edit the text in random.txt to test out the feature for spotify-this-song, movie-this and concert-this commands <br>
  
- 
-   
+  ## Demo
+  ![spotify-this-song](/images/spotify-this-song-example1.PNG)
+  <br>
+  ![spotify-this-song](/images/spotify-this-song-no-song.PNG)
+  
+  
+  
  
