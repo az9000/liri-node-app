@@ -51,13 +51,17 @@ var liri_cli = {
     movieThis.getMovie(movie);
   },
   "do-what-it-says": function() {
-    
-
     console.clear();
     var data = doWhatItSays.do();
     data.on('line', (line) => {
       const cmd = line.split(',')[0];
-      const param = line.split(',')[1];
+      const word2 = line.split(',')[1];
+      var param = '';
+      for (var c in word2) {
+        if (word2[c] !== '"') {
+          param += word2[c];
+        }
+      }
       if (cmd && param) {
         logger.log(`${cmd}, ${param}.`);
         liri_cli[cmd.toLowerCase()](param);

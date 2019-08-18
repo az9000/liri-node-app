@@ -10,6 +10,7 @@ function getTour(artist) {
     "https://rest.bandsintown.com/artists/" +
     artist +
     "/events?app_id=codingbootcamp";
+  
   axios
     .get(url)
     .then(function(response) {
@@ -20,6 +21,7 @@ function getTour(artist) {
         );
         return;
       }
+      
       var index = 1;
       response.data.forEach(element => {
         var venue = element.venue;
