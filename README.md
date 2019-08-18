@@ -38,6 +38,19 @@ There are multiple independent JavaScript files (one for each component), that a
   [Video Demo](https://drive.google.com/file/d/1duPkuHpTMXLrYYnSPI3YTS-QJTurmhZ3/view)
   <br>
   
+  ## Repository
+  https://github.com/az9000/liri-node-app
+  
+  ## Technologies used
+  * node v10.15.3
+  * npm v6.4.1
+  * axios v0.19.0
+  * dotenv v8.0.0
+  * moment v2.2.4.0
+  * node-spotify-api v1.1.1
+  
+  ## Author
+  Fawzi Alami
   
   
  
